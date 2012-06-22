@@ -1,4 +1,4 @@
 <?php 
+	echo "github";
 	echo exec('git pull');
-	echo exec('mkdir folder');
 ?>
