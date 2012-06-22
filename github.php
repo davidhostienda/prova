@@ -1,4 +1,4 @@
 <?php 
-	echo "github";
-	echo exec('git pull');
-?>
+	echo "github <br />";
+	$t = `git pull`;
+	echo "<pre>".$t."</pre>";
